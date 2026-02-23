@@ -1,0 +1,32 @@
+/* Reset completo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo general sin partes negras */
+body {
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #2563eb, #1e3a8a);
+}
+
+/* Contenedor principal */
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Caja blanca centrada */
+main {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 700px;
+  text-align: center;
+  color: #1f2937;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
