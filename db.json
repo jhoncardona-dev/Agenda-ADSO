@@ -13,13 +13,6 @@
       "telefono": "301 301 2525",
       "correo": "blessdElbendito@gmail.com",
       "etiqueta": "Profesor"
-    },
-    {
-      "id": "1fb7",
-      "nombre": "Yefri",
-      "telefono": "301 456 7895",
-      "correo": "Dahmer123@gmail.com",
-      "etiqueta": "aprendiz"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
