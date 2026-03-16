@@ -13,6 +13,7 @@
       "telefono": "301 301 2525",
       "correo": "blessdElbendito@gmail.com",
       "etiqueta": "Profesor"
+<<<<<<< HEAD
     },
     {
       "nombre": "yohan",
@@ -34,6 +35,8 @@
       "telefono": "3045973881",
       "correo": "bolaños@sena.co",
       "etiqueta": "Instructor"
+=======
+>>>>>>> 8d85c7aad1718da4af58d96c586e7c281518aa5b
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

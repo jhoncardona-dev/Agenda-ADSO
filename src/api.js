@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { API_BASE_URL } from "./config";
 
 export async function listarContactos() {
@@ -39,3 +40,36 @@ export async function eliminarContactoPorId(id) {
 
   return true;
 }
+=======
+const API = "http://localhost:3002/contactos";
+
+
+// GET - Listar todos los contactos
+export async function listarContactos() {
+const res = await fetch(API);
+if (!res.ok) throw new Error("Error al listar contactos");
+return res.json();
+}
+
+// POST - Crear un nuevo contacto
+export async function crearContacto(data) {
+const res = await fetch(API, {
+method: "POST",
+headers: { "Content-Type": "application/json" },
+body: JSON.stringify(data),
+});
+if (!res.ok) throw new Error("Error al crear el contacto");
+return res.json();
+}
+
+
+// DELETE - Eliminar contacto por ID
+export async function eliminarContactoPorId(id) {
+const res = await fetch(`${API}/${id}`, {
+method: "DELETE"
+});
+if (!res.ok) throw new Error("Error al eliminar el contacto");
+return true;
+}
+
+>>>>>>> 8d85c7aad1718da4af58d96c586e7c281518aa5b
