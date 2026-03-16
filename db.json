@@ -1,0 +1,40 @@
+{
+  "contactos": [
+    {
+      "id": "8e39",
+      "nombre": "Claudia",
+      "telefono": "301 456 7895",
+      "correo": "Claudiape@gmail.com",
+      "etiqueta": "Directora"
+    },
+    {
+      "id": "d9cb",
+      "nombre": "blessd",
+      "telefono": "301 301 2525",
+      "correo": "blessdElbendito@gmail.com",
+      "etiqueta": "Profesor"
+    },
+    {
+      "nombre": "yohan",
+      "telefono": "32485651",
+      "correo": "johan1@sena.co",
+      "etiqueta": "Aprendiz",
+      "id": "a275"
+    },
+    {
+      "id": "744c",
+      "nombre": "johan2",
+      "telefono": "3004239209",
+      "correo": "johan2@sena.co",
+      "etiqueta": "Aprendiz"
+    },
+    {
+      "id": "0d21",
+      "nombre": "Gustavo Bolaños",
+      "telefono": "3045973881",
+      "correo": "bolaños@sena.co",
+      "etiqueta": "Instructor"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
